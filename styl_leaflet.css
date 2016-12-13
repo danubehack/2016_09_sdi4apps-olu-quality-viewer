@@ -1,0 +1,42 @@
+#mapid { height: 180px; }
+
+div#nadpis h1
+{
+background-color: rgba(0, 0, 0, 0.6);
+width: 50%;
+color: white;
+font: ubuntu;
+z-index: 20;	
+position: absolute;
+top: 10px;
+left: 50%;
+transform: translate(-50%, 0%);
+text-align: center;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+
+.leaflet-control-zoom
+{
+position: relative;
+top: 100px;
+}
+
+.leaflet-control-layers
+{
+position: relative;
+top: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
