@@ -142,21 +142,23 @@ L.singleTile = function (url, options) {
 		transparent: true,
     attribution: "Hungary Land Use"
     });  
-/*
-  var lucas_point_sk = L.tileLayer.wms('', {
-    layers: '',
+
+  var lucas_point_sk = L.tileLayer.wms('http://data.datacove.eu:8080/geoserver/lu/wms', {
+    layers: 'lu:zhoda_sk',
     format: 'image/png',
+    styles: 'zhoda',
 		transparent: true,
     attribution: "Slovakia LUCAS point"
     });
 
-  var lucas_point_hu = L.tileLayer.wms('', {
-    layers: '',
+  var lucas_point_hu = L.tileLayer.wms('http://data.datacove.eu:8080/geoserver/lu/wms', {
+    layers: 'lu:zhoda_hu',
     format: 'image/png',
+    styles: 'zhoda',
 		transparent: true,
     attribution: "Hungary LUCAS point"
     });  
-*/
+
 
   var heat_map_sk = L.singleTile('http://data.datacove.eu:8080/geoserver/lu/wms', {
     layers: 'lu:zhoda_sk',
@@ -173,7 +175,7 @@ L.singleTile = function (url, options) {
     })
 
   var land_use = L.layerGroup([landuse_sk, landuse_hu]);
-  //var lucas_points = L.layerGroup([lucas_point_sk, lucas_point_hu]);
+  var lucas_points = L.layerGroup([lucas_point_sk, lucas_point_hu]);
   var heat_map = L.layerGroup([heat_map_sk, heat_map_hu]);  
 
   var states = function(json) {
@@ -187,7 +189,7 @@ L.singleTile = function (url, options) {
   var overlayMaps = {
     "Borders": states_layer,
     "Land Use": land_use,
-    //"LUCAS points": lucas_point,
+    "LUCAS points": lucas_points,
     "Heat Map": heat_map
     };
 
