@@ -9,14 +9,16 @@ https://docs.google.com/presentation/d/1cmE67YowVxL3nMvLnVOiXlEjmCU6FY8XMe3buKDv
 
 ## Input / Output datasets WMS/WFS service sources
 WMS service endpoint: http://data.datacove.eu:8080/geoserver/lu/wms
+
 WFS service endpoint: http://data.datacove.eu:8080/geoserver/lu/wfs
+
 Datasets: lu_elu_object_hu, lu_elu_object_sk, zhoda_hu, zhoda_sk
 
-## Styles
-
-
 ## Members of project team
-Jan Zacharias - developer
-Boris Kruzliak - developer
-Jachym Cepicky - mentor
-Tomas Kliment - mentor
+Jan Zacharias - developer email: zachousek@gmail.com
+
+Boris Kruzliak - developer email: boris.kruzliak@gmail.com
+
+Jachym Cepicky - mentor, email: jachym.cepicky@gmail.com
+
+Tomas Kliment - mentor, email: tomas.kliment@gmail.com
