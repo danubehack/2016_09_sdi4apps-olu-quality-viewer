@@ -7,7 +7,13 @@ The main goal of the project was to visualise the quality of land use HILUCS cat
 # Final presentation 
 https://docs.google.com/presentation/d/1cmE67YowVxL3nMvLnVOiXlEjmCU6FY8XMe3buKDvOAw/pub?start=false&loop=false&delayms=3000
 
-# Input / Output datasets WFS service sources
+# Input / Output datasets WMS/WFS service sources
+WMS service endpoint: http://data.datacove.eu:8080/geoserver/lu/wms
+WFS service endpoint: http://data.datacove.eu:8080/geoserver/lu/wfs
+Datasets: lu_elu_object_hu, lu_elu_object_sk, zhoda_hu, zhoda_sk
+
+# Styles
+
 
 # Members of project team
 Jan Zacharias - developer
