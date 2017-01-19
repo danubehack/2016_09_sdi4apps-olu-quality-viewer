@@ -7,6 +7,9 @@ The main goal of the project was to visualise the quality of land use HILUCS cat
 ## Final presentation 
 https://docs.google.com/presentation/d/1cmE67YowVxL3nMvLnVOiXlEjmCU6FY8XMe3buKDvOAw/pub?start=false&loop=false&delayms=3000
 
+## Data Viewer
+http://bolegweb.geof.unizg.hr/danubehack2/oluquality/
+
 ## Input / Output datasets WMS/WFS service sources
 WMS service endpoint: http://data.datacove.eu:8080/geoserver/lu/wms
 
